@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    object-fit: cover;
+}
+.maestro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 1%;
+}
+
+.contenedor{
+    width: 1016px;
+    height: 792px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(2, 1fr);   
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+    
+}
+
+.mininav{
+    
+    background-color: white;
+    grid-area: 1/2/1/3;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(9, 1fr);  
+}
+.puntos{
+
+    grid-area: 1/1/1/2;
+    display: flex;   
+    justify-content:space-evenly;
+    
+}
+
+.contenedor-imagen-mininavar{
+  
+    padding-top: 50%;   
+    
+    
+}
+
+/* .contenedor-imagen-mininavar:hover{
+    background-color: #E5E3C9;
+    
+} */
+
+
+
+.upload{
+    grid-area: 1/2/1/3;
+    display: flex;   
+    justify-content:space-evenly;
+}
+.linking{
+    grid-area: 1/3/1/4;
+    display: flex;   
+    justify-content:space-evenly;
+}
+.consejos{
+    grid-area: 1/6/1/8;
+    display: flex;
+    justify-content:space-evenly
+}
+.boton-consejos-container{
+    padding-top: 18%; 
+    justify-content: center;
+    
+}
+.boton-consejos {
+     
+    background-color: none;
+    background: none;
+     border: none;
+     color: black;
+     padding: 11px 20px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 16px;
+     font-size: large;
+     font-family: 'Roboto', sans-serif;
+       
+       }
+
+.guardar{
+    grid-area: 1/8/1/10;
+    display: flex;
+    justify-content:space-evenly
+}
+.boton-guardar-container{
+    padding-top: 18%; 
+}
+.boton-guardar {
+
+  background-color: rgb(230, 0, 35);
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  
+
+  }
+
+  .boton-guardar:hover {
+    background-color: #7a2424;
+}
+
+
+  
+
+.imagen{
+    
+    grid-area: 1/1/6/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    padding: 4%;
+    width: 80%;
+    height: 90%;
+    
+}
+
+.imagen1{
+    border-radius: 5%;
+    width: 100%
+
+}
+
+.titulo-y-parrafo{
+    
+    grid-area: 2/2/3/3;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.bold-text{
+    font-weight: bold;
+}
+
+.light-text{
+    font-weight: lighter;
+  }
+  
+
+.comentarios{
+    
+    grid-area: 3/2/3/3;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+}
+
+
+.comentarios-contenedor{
+    /* border: rgb(211, 30, 187) 2px solid; */
+    grid-area: 4/2/9/3;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+   
+}
+/* comentario 1 inicio --------------------------------------------------------------------------------------------------*/
+.comentario1{
+/* border:  2px solid red; */
+height: 96.5px;
+
+display: flex;
+
+}
+
+.imagen-de-comentarios{
+    /* border:  2px solid turquoise; */
+    width: 48px;
+    height: 96.5px;
+    
+    
+    }
+
+.imagen-redonda-comentarios{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}    
+
+.caja-e-iconos{
+    /* border:  2px solid royalblue; */
+    width: 443px;
+    height: 96.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+    
+}
+
+.caja-coment-1{
+    border:  2px solid rgb(206, 206, 206);
+    width: 450px;
+    height: 56.5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 10px;
+    
+}
+
+.nombre-y-tiempo-comentario{
+    /* background-color:  red; */
+    width: 416px;
+    height: 16.5px;
+    display: flex;
+   
+  
+}
+.nombre-de-comentario{
+    /* background-color:  blue; */
+    width: 80px;
+    height: 16.5px;
+    
+}
+.tiempo-de-comentario{
+   /* background-color:  greenyellow; */
+    width: 30px;
+    height: 16.5px;
+    
+}
+.comentario{
+    /* background-color:  purple; */
+    width: 416px;
+    height: 16.5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.iconos-coments{
+    /* border:  2px solid purple; */
+    width: 443px;
+    height: 40px;
+    display: flex;
+    padding-top: 5px;
+}
+
+
+
+.iconos-izquierda{
+    /* border:  2px solid goldenrod; */
+    width: 110px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.inconos-arreglo{
+    width: 20px;
+    height: auto;
+}
+
+.icono-corazon{
+    /* background-color: blue; */
+    cursor: pointer;
+    
+    padding: 6px;
+    border-radius: 50
+}
+
+
+
+.icono-comentario{
+    /* background-color: darkorchid; */
+    cursor: pointer;
+    
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.icono-comentario:hover{
+    background-color: #E5E3C9;
+    
+}
+
+.icono-trespuntos{
+    /* background-color: darkgreen; */
+    /* width: 32px;
+    height: 32px; */
+    cursor: pointer;
+    
+    padding: 6px;
+    border-radius: 50%;
+}
+.icono-trespuntos:hover{
+    background-color: #E5E3C9;
+    
+}
+
+.iconos-derecha{
+    /* border:  2px solid firebrick; */
+    width: 323px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icono-manita{
+    /* background-color: rebeccapurple; */
+    width: 32px;
+    height: 32px;
+}
+
+.texto-util{
+    /* background-color: gold; */
+    width: 32px;
+    height: 32px;
+}
+
+/* comentario 1 Fin -----------------------------------------------------------------------------------------------------*/
+/* comentario 2 inicio --------------------------------------------------------------------------------------------------*/
+.comentario2{
+    /* border:  2px solid blue; */
+    height: 114.5px;
+    display: flex;
+    
+}
+
+.imagen-de-comentarios2{
+    /* border:  2px solid turquoise; */
+    width: 48px;
+    height: 114.5px;
+}
+.caja-e-iconos2{
+    /* border:  2px solid royalblue; */
+    width: 443px;
+    height: 114.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+    
+}
+.caja-coment-2{
+    border:  2px solid rgb(206, 206, 206);
+    width: 450px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+
+/* comentario 2 fin -----------------------------------------------------------------------------------------------------*/
+/* minitexto  inicio ----------------------------------------------------------------------------------------------------*/
+.minitexto{
+    /* border:  2px solid orange; */
+    height: 14px;
+    display: flex;
+    
+}
+.minitexto-texto{
+    /* background-color: blue; */
+    width: 100px;
+}
+
+/* minitexto  fin -------------------------------------------------------------------------------------------------------*/
+/* mi comentario  inicio ------------------------------------------------------------------------------------------------*/
+.mi-comentario{
+    /* border:  2px solid purple; */
+    height: 48px;
+    display: flex;
+   
+}
+.imagen-de-mi-comentario{
+    /* border:  2px solid turquoise; */
+    width: 48px;
+    height:  48px;
+    }
+
+.espacio-para-mi-comentario{
+    border:  2px solid rgb(221, 221, 221);
+    width: 444px;
+    height:  48px;
+    border-radius: 26px; 
+    
+    height: 48px;
+    padding: 15px;
+    }
+
+/* mi comentario  fin ---------------------------------------------------------------------------------------------------*/
+/* mi comentario  fin ---------------------------------------------------------------------------------------------------*/
+
+
+.texto-de-lin{
+    /* border:  2px solid turquoise; */
+    height: 92px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lin-imagen{
+    /* border:  2px solid turquoise; */
+    width: 32px;
+    height:  32px;
+}
+.lin-imagen-redonda{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}    
+
+.lin-texto-area{
+    /* border:  2px solid rosybrown; */
+    width: 461px;
+    height:  32px;
+    display: flex;
+    align-items: center;
+}
+
+.lin-texto{
+    /* background-color:  teal; */
+    width: 194px;
+    height:  17px;
+    padding-left: 5px;
+}
+
